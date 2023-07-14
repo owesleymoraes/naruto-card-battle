@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import capa from "../../../public/images/capa.png";
+import cover from "../../../public/images/cover.svg";
 
-export const Container = styled.div`
+export const Container = styled.body`
   /* reset CSS  */
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   font-family: "Roboto Mono", monospace;
   min-height: 854px;
-  background-image: url(${capa});
+  background-image: url(${cover});
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -17,5 +17,5 @@ export const Container = styled.div`
   padding-bottom: 20vh;
 
   text-align: center;
-    padding: 20px;
+  padding: 20px;
 `;
