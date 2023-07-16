@@ -2,33 +2,41 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: inline-flex;
+  
+  
 `;
 
 export const Static = styled.div`
   color: #ffd700;
   font-size: 60px;
+
   font-weight: 400;
+  font-size: 38px;
 `;
 
 export const Dynamic = styled.ul`
   margin: 0;
   list-style-type: none;
-  height: 80px;
+  height: 33px;
+  /* height: 80px; */
   overflow: hidden;
 `;
 
 export const ListDynamic = styled.li`
-  font-size: 60px;
+  font-size: 20px;
+  /* font-size: 60px; */
   font-weight: 500;
   color: #8a2be2;
   left: 0;
   position: relative;
   top: 0;
   animation: slide 8s steps(4) infinite;
+  font-size: 38px;
 
   @keyframes slide {
     100% {
-      top: -280px;
+      top: -172px;
+      /* top: -280px; */
     }
   }
 `;
