@@ -4,7 +4,6 @@ export const Container = styled.div`
   /* reset CSS  */
   margin: 0;
   padding: 0;
-  border: 8px solid red;
   box-sizing: border-box;
   background-color: #000000;
   font-family: "Roboto Mono", monospace;
@@ -12,13 +11,16 @@ export const Container = styled.div`
   width: 100%;
   height: 700px;
   padding-bottom: 20vh;
-
   text-align: center;
   padding: 8px;
 
   img {
     width: 100%;
     height: 100%;
+  }
+
+  @media (max-height: 414px) {
+    height: 400px;
   }
 `;
 
